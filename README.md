@@ -156,4 +156,4 @@ public void LoggerExcepion(string message)
 
 4. Result to GIF
 
-![result to gif ](resulgif/Анимация.gif)
+![result to gif ](resulgif/GIF.gif)
