@@ -21,10 +21,10 @@
         {
             string line = "\n";
             File.AppendAllText(filePath, nameAndNumber + line);
-            
+
             return nameAndNumber;
         }
-         
+
         public void RemoveNameAndNumber(string nameAndNumber)
         {
             List<string> lines = File.ReadAllLines(filePath).ToList();
@@ -49,7 +49,7 @@
             Console.WriteLine(readText);
             return readText;
         }
-        private static void EnsureFileExists()
+        public void EnsureFileExists()
         {
             bool isFilePresent = File.Exists(filePath);
 
@@ -59,7 +59,7 @@
             }
         }
 
-        void IFileService.AddName(string name)
+        void IFileService.AddNameAndNumber(string name)
         {
             throw new NotImplementedException();
         }

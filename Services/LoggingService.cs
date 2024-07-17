@@ -15,11 +15,11 @@
             //Console.ResetColor();
         }
 
-        public void LoggerForAdd() 
+        public void LoggerForAdd()
         {
             Console.WriteLine("Ogoxlantirish : qo'shish uchun ism va raqam formatini to'g'ri yozing: (Sherzod +998918285636)");
             Console.Write("Ism va raqamni kiriting :");
-        } 
+        }
 
         public void LoggerForRemove()
         {
@@ -28,7 +28,7 @@
         }
 
         public void LoggerExcepion(string message)
-        {   
+        {
             Console.WriteLine($"{message}");
             Console.WriteLine("Run again");
         }
