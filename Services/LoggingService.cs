@@ -17,8 +17,8 @@
 
         public void LoggerForAdd()
         {
-            Console.WriteLine("Ogoxlantirish : qo'shish uchun ism va raqam formatini to'g'ri yozing: (Sherzod +998918285636)");
-            Console.Write("Ism va raqamni kiriting :");
+            Console.WriteLine("Warning : write name and number format correctly to add: (Sherzod +998918285636)");
+            Console.Write("Enter name and number :");
         }
 
         public void LoggerForRemove()
