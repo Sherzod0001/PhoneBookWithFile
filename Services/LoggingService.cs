@@ -23,8 +23,8 @@
 
         public void LoggerForRemove()
         {
-            Console.WriteLine("WArning : o'chirish uchun ism va raqam formatini to'g'ri yozing: (Sherzod +998918285636)");
-            Console.Write("Ism va raqamni kiriting :");
+            Console.WriteLine("WArning : type name and number format correctly to delete: (Sherzod +998918285636)");
+            Console.Write("Enter name and number :");
         }
 
         public void LoggerExcepion(string message)
