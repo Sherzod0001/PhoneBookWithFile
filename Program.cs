@@ -38,7 +38,7 @@ namespace PhoneBookWithFile
                             fileservice.ReadFile().ToList().Sort();
                             break;
                         case "4":
-                            Console.WriteLine("Warning... fileni o'chirishga rozimisan : yes/no");
+                            Console.WriteLine("Warning... You agree to delete the file : yes/no");
                             string chooseYesOrno = Console.ReadLine();
                             if (chooseYesOrno.ToLower() == "yes")
                             {
@@ -46,14 +46,14 @@ namespace PhoneBookWithFile
                             }
                             else
                             {
-                                Console.Write("Fileni o'chirmadingmi  ? ");
+                                Console.Write("Did you delete the file?  ? ");
                             }
                             break;
                         case "5":
                             isExit = false;
                             break;
                         default:
-                            Console.WriteLine("");
+                            Console.WriteLine("You pressed the wrong button!");
                             break;
                     }
                 }
